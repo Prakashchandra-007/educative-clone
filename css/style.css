@@ -10,7 +10,12 @@
 }
 /* header section */
 .header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: #fff;
     display: flex;
+    width: 100%;
     justify-content: space-between;
     align-items: center;
     border-bottom: .04px solid #b1adad;
